@@ -1,0 +1,17 @@
+/*
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Roboto Condensed', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto+Condensed&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(180deg, #10A9FF 0%, #8FCFF3 100%);
+}
