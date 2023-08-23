@@ -1,0 +1,89 @@
+/*
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Roboto Condensed', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto+Condensed&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(180deg, #10A9FF 0%, #8FCFF3 100%);
+}
+
+header {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cabecalho-imagem {
+    height: 48px;
+}
+
+.navegacao {
+    display: flex;
+    gap: 32px;
+}
+
+.navegacao-item {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+}
+
+.conteudo-principal-escrito-subtitulo, .conteudo-secundario-texto {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    font-size: 2rem;
+}
+
+.conteudo-principal , .conteudo-secundario{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+.conteudo-secundario {
+    flex-direction: column;
+    gap: 15px;
+}
+
+.conteudo-principal-imagem {
+    height: 250px;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-principal-escrito-titulo, .conteudo-secundario-titulo {
+    font-family: Alfa Slab One;
+    font-size: 2.5rem;
+    color:white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    margin-bottom: 10px;
+}
+
+.conteudo-principal-botao {
+    margin-top: 10px;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rodape-imagem {
+    height: 50px;
+}
